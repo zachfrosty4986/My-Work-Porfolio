@@ -2,63 +2,111 @@
 
 }
 
-head {
-
-}
 
 header {
-
-}
-
-body {
-
-}
-
-main {
-
-}
-
-footer {
-
-}
-
-.name {
-
+font-size: 25px;
+font-family: sans-serif;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 20px;
+background-color:cyan;
+align-items: center;
+height: 50px;
+border: 5px solid gray;
 }
 
 #page-links {
-    
+    align-self: flex-end;
 }
 
-.porfolio-content {
-
+.hero {
+    height: 125px;
+    padding: 20px;
+    background-color: cyan;
+    border: 5px solid gray;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    text-align: end;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 0;
+    line-height: 1;
 }
 
 .about-me {
-
+    display: flex;
+    flex-direction: row;
+}
+.about-me h2 {
+    width: 20%;
+    text-align: end;
+    padding-right: 20px;
 }
 
 #about-me-content {
+    border-left:2px solid black;
+}
+
+body {
+margin: 0;
+padding: 0;
+font-size: 16px;
+font-family: sans-serif;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+main {
+font-size: 16px;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.contact-me {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.contact-me h3 {
+    border-right: 2px solid black;
+    padding-right: 20px;
+}
+
+footer {
+font-size: 15px;
+}
+
+
+
+.card {
+border: solid 5px;
+}
+
+.porfolio-content {
+font-size: 15px;
+}
+
+.small-projects {
+display: flex;
+flex-direction: row;
 
 }
 
-.work {
-
+.small-card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .card {
-
+display: flex;
 }
 
-.card:hover {
 
-}
-
-#surf-report {
-
-}
-
-.contact-me {
-
-}
 
