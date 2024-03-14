@@ -4,26 +4,28 @@
 
 
 header {
-font-size: 25px;
-font-family: sans-serif;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding: 20px;
-background-color:cyan;
-align-items: center;
-height: 50px;
-border: 5px solid gray;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:burlywood;
+    align-items: center;
+    height: 50px;
+    border: 5px solid gray;
+    border-bottom: none;
 }
 
 #page-links {
     align-self: flex-end;
+    text-decoration: none;
 }
 
 .hero {
     height: 125px;
     padding: 20px;
-    background-color: cyan;
+    background-color: burlywood;
     border: 5px solid gray;
     display: flex;
     flex-direction: row-reverse;
@@ -38,11 +40,21 @@ border: 5px solid gray;
 .about-me {
     display: flex;
     flex-direction: row;
+    background-color: beige;
 }
+
+.about-me img {
+    margin-left: 32%;
+    height: 250px;
+    width: 300px;
+}
+
 .about-me h2 {
     width: 20%;
     text-align: end;
     padding-right: 20px;
+    padding-bottom: 10px;
+   
 }
 
 #about-me-content {
@@ -50,21 +62,81 @@ border: 5px solid gray;
 }
 
 body {
-margin: 0;
-padding: 0;
-font-size: 16px;
-font-family: sans-serif;
-flex-direction: column;
-justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: beige;
 }
 
 main {
-font-size: 16px;
-font-family: sans-serif;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
+
+.card:hover {
+    border-color: orange;
+}
+    
+.porfolio-content {
+    font-size: 15px;
+}
+    
+.small-projects {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.small-projects img {
+    height: 250px;
+    width: 300px;
+    margin-left: 15%;
+}
+    
+@media screen and (max-width: 768px) {
+.small-projects {
+    flex-direction: column;       
+    }
+}
+    
+.small-card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+    
+@media screen and (max-width: 768px) {
+.small-card {
+    width: 100%
+    }
+}
+    
+.card {
+    display: flex;
+    border: solid 3px black;
+    padding: 5px;
+}
+
+.card img {
+    height: 250px;
+    width: 400px;
+}
+
+#surf-report img {
+    margin-left: 35%;
+}
+    
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
 .contact-me {
     display:flex;
     flex-direction: row;
@@ -79,33 +151,7 @@ justify-content: flex-start;
 }
 
 footer {
-font-size: 15px;
-}
-
-
-
-.card {
-border: solid 5px;
-}
-
-.porfolio-content {
-font-size: 15px;
-}
-
-.small-projects {
-display: flex;
-flex-direction: row;
-
-}
-
-.small-card {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.card {
-display: flex;
+    font-size: 15px;
 }
 
 
