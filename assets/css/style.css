@@ -2,7 +2,7 @@
 
 }
 
-
+/* Lots of CSS content contained within the header, this applies to all content in the header tag in the HTML document. This flexes the text to fit for smaller screen sizes and sets style for the font, as well as background color and an image  */
 header {
     font-size: 25px;
     font-family: sans-serif;
@@ -16,12 +16,12 @@ header {
     border: 5px solid gray;
     border-bottom: none;
 }
-
+/* Applies to the id for the page links that navigate you to the specific components of the webpage. These are also specifically flexed  */
 #page-links {
     align-self: flex-end;
     text-decoration: none;
 }
-
+/* Applies to the div hero class that resides inside the header tag  */
 .hero {
     height: 125px;
     padding: 20px;
@@ -36,19 +36,19 @@ header {
     padding-bottom: 0;
     line-height: 1;
 }
-
+/* applies to the entire about me class for specific color and flexing  */
 .about-me {
     display: flex;
     flex-direction: row;
     background-color: beige;
 }
-
+/* Applies to only the image inside the about me class for specific size adjustments  */
 .about-me img {
     margin-left: 32%;
-    height: 250px;
-    width: 300px;
+    height: 350px;
+    width: 400px;
 }
-
+/* Gives padding to only the h2 tag inisde the about me class  */
 .about-me h2 {
     width: 20%;
     text-align: end;
@@ -56,11 +56,11 @@ header {
     padding-bottom: 10px;
    
 }
-
+/* Applies to the id article inside the about me content class to give border separation */
 #about-me-content {
     border-left:2px solid black;
 }
-
+/* Sets the default font family and style, as well as margins and flexing for the entire body section  */
 body {
     margin: 0;
     padding: 0;
@@ -70,7 +70,7 @@ body {
     justify-content: flex-start;
     background-color: beige;
 }
-
+/* Sets the default font family and style, as well as margins and flexing for the entire main section  */
 main {
     font-size: 16px;
     font-family: sans-serif;
@@ -78,15 +78,15 @@ main {
     flex-direction: column;
     justify-content: flex-start;
 }
-
+/* Changes the border color when the cursor hovers over a card element  */
 .card:hover {
     border-color: orange;
 }
-    
+/* Applies the font size for all the articles inside the cards in the portfolio content class  */
 .porfolio-content {
     font-size: 15px;
 }
-    
+/* Next few classes apply flex properties and image properties to the small card components below the top card  */
 .small-projects {
     display: flex;
     flex-direction: row;
@@ -116,7 +116,7 @@ main {
     width: 100%
     }
 }
-    
+/* Sets flexing, border and padding properties for the large top card  */
 .card {
     display: flex;
     border: solid 3px black;
@@ -136,7 +136,7 @@ main {
     text-decoration: none;
     color: black;
 }
-
+/* Adds flexing and padding properties to the contact me class  */
 .contact-me {
     display:flex;
     flex-direction: row;
@@ -144,12 +144,12 @@ main {
     padding: 10px;
     justify-content: space-between;
 }
-
+/* Applies th the Contact Me heading for border properties and padding  */
 .contact-me h3 {
     border-right: 2px solid black;
     padding-right: 20px;
 }
-
+/* Sets the font size for the footer section  */
 footer {
     font-size: 15px;
 }
